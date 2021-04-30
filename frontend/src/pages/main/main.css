@@ -1,0 +1,5 @@
+.main {
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+}
