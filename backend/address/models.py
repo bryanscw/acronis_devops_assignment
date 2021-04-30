@@ -14,4 +14,5 @@ class Address(models.Model):
     def save(self, *args, **kwargs):
         self.f_name = self.f_name.title()
         self.l_name = self.l_name.title()
+        self.department = self.department.title()
         super(Address, self).save(*args, **kwargs)
