@@ -1,3 +1,5 @@
+all: clean build deploy
+
 build: 
 	cd infra && docker-compose build
 
